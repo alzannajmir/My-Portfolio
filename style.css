@@ -79,7 +79,7 @@ body {
   transition: background 0.3s ease;
 }
 
-.hero .foto {
+.foto img {
   margin-top: 100px;
   margin-right: 180px;
 }
@@ -107,7 +107,7 @@ body {
 
 /* ABOUT SECTION */
 .about-section {
-  color: white;
+  color: antiquewhite;
   padding: 100px 80px;
   display: flex;
   justify-content: center;
@@ -153,11 +153,11 @@ body {
 }
 
 .about-content .highlight {
-  color: #00a8ff;
+  color: black;
 }
 
 .about-desc {
-  color: #cbd5e1;
+  color: antiquewhite;
   font-size: 15px;
   line-height: 1.8;
   margin-bottom: 30px;
@@ -182,41 +182,39 @@ body {
 }
 
 .stat-box h2 {
-  color: #00a8ff;
+  color: antiquewhite;
   font-size: 28px;
   margin-bottom: 5px;
 }
 
 .stat-box p {
-  color: #d1d5db;
+  color: black;
   font-size: 14px;
 }
-
+/* 
 .btn-contact {
-  background: linear-gradient(90deg, #00a8ff, #0066ff);
-  color: white;
+  color: antiquewhite;
   padding: 12px 24px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
   transition: background 0.3s, transform 0.3s;
-}
+} */
 
 .btn-contact:hover {
-  background: linear-gradient(90deg, #0066ff, #00a8ff);
+  background: linear-gradient(90deg, grey, black);
   transform: translateY(-3px);
 }
 
 .certificate-section {
   text-align: center;
   padding: 60px 20px;
-  color: white;
+  color: antiquewhite;
 }
 
 .certificate-section h2 {
   font-size: 2em;
   margin-bottom: 40px;
-  position: relative;
 }
 
 .certificate-container {
@@ -249,11 +247,11 @@ body {
   /* background: linear-gradient(180deg, #001f3f, #002b63); */
   padding: 80px 10%;
   text-align: center;
-  color: white;
+  color: antiquewhite;
 }
 
 .projects h1 {
-  font-size: 36px;
+  font-size: 24px;
   margin-bottom: 50px;
   font-weight: bold;
 }
@@ -266,7 +264,7 @@ body {
 }
 
 .project-item {
-  position: relative;
+  position: inline;
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
@@ -288,7 +286,7 @@ body {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
-  color: #fff;
+  color: antiquewhite;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -311,25 +309,25 @@ body {
 .resume {
   padding: 80px 10%;
   text-align: center;
-  color: white;
+  color: antiquewhite;
   font-family: "Poppins", sans-serif;
 }
 
 .resume h1 {
-  font-size: 36px;
+  font-size: 24px;
   margin-bottom: 40px;
-  position: relative;
+  position: inline;
 }
-
+/* 
 .resume h1::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background: #00b4d8;
+  background: gray;
   margin: 10px auto 0;
   border-radius: 2px;
-}
+} */
 /*  */
 .tech-slider {
   overflow: hidden;
@@ -339,7 +337,7 @@ body {
 
 .slider-track {
   display: flex;
-  width: calc(200px * 16); /* jumlah icon * lebar tiap icon */
+  width: calc(200px * 16); /* jumlah icon */
   animation: scroll 25s linear infinite;
 }
 
@@ -417,21 +415,21 @@ body {
 }
 
 .experience-card h3 {
-  color: #fff;
+  color: antiquewhite;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
 .experience-card h4 {
-  color: #00b4d8;
+  color: antiquewhite;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 .experience-card .year {
   display: inline-block;
-  background: rgba(0, 180, 216, 0.2);
-  color: #00b4d8;
+  background: rgba(0, 0, 0, 0.2);
+  color: antiquewhite;
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 13px;
@@ -439,9 +437,10 @@ body {
 }
 
 .experience-card p {
-  color: #ddd;
-  font-size: 14px;
+  color: antiquewhite;
+  font-size: 15px;
   line-height: 1.6;
+  font-weight: 12px;
 }
 /*  */
 .skills-section {
@@ -449,15 +448,8 @@ body {
   text-align: center;
 }
 
-.skills-subtitle {
-  color: antiquewhite;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
 .skills-title {
+  font-size: 24px;
   color: antiquewhite;
   font-size: 2rem;
   margin-bottom: 50px;
@@ -483,8 +475,9 @@ body {
   display: flex;
   justify-content: space-between;
   color: antiquewhite;
-  font-weight: 600;
+  font-weight: 1000;
   margin-bottom: 5px;
+  font-size: 15px;
 }
 
 .skill-bar {
@@ -496,7 +489,7 @@ body {
 
 .skill-progress {
   height: 100%;
-  background-color: blanchedalmond;
+  background-color: grey;
   border-radius: 10px 0 0 10px;
   transition: width 0.8s ease;
 }
@@ -504,7 +497,7 @@ body {
 /* Footer Section */
 .footer-section {
   background-color: grey;
-  color: white;
+  color: antiquewhite;
   text-align: center;
   padding: 10px 10px;
   border-radius: 20px 20px 0 0;
@@ -521,14 +514,14 @@ body {
 }
 
 .footer-socials a {
-  color: white;
+  color: antiquewhite;
   font-size: 28px;
   margin: 0 15px;
   transition: color 0.3s, transform 0.3s;
 }
 
 .footer-socials a:hover {
-  color: #dff6ff;
+  color: black;
   transform: scale(1.2);
 }
 
